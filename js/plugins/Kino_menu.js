@@ -12,7 +12,7 @@
  */
 
 (function() {
-    // 選單位置 pw test
+    // 選單位置
     var Kino_scene_Menu_createCommandWindow = Scene_Menu.prototype.createCommandWindow;
     Scene_Menu.prototype.createCommandWindow = function() {
         Kino_scene_Menu_createCommandWindow.call(this);
