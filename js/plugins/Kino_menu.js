@@ -2,13 +2,13 @@
 // Kino_menu.js
 //=============================================================================
 
-/*:
+/*:zh_TW
  * @plugindesc 選單視窗的變更
  * @author Kino
  *
- * @desc non
+ * @desc desc
  *
- * @help non
+ * @help help
  */
 
 (function() {
@@ -17,6 +17,13 @@
     Scene_Menu.prototype.create = function() {
         Kino_scene_menu_create.call(this);
         Kino_scene_menu_position_change(this);
+    };
+
+    // 技能選單直接 select 技能
+    var Kino_scene_skill_create = Scene_Skill.prototype.create;
+    Scene_Skill.prototype.create = function() {
+        Kino_scene_skill_create.call(this);
+        this.commandSkill();
     };
 
     var Kino_scene_menu_position_change = function(scene) {
@@ -81,12 +88,13 @@
     Window_MenuStatus.prototype.drawItemStatus = function(index) {
         var actor = $gameParty.members()[index];
         var rect = this.itemRectForText(index);
-        var x = rect.x + (rect.width * 0.5);
+        var x = rect.x + (rect.width * 0.5) + 12;
         var y = rect.y;
         var width = rect.width;
         var bottom = y + rect.height;
         var lineHeight = this.lineHeight();
-        this.drawActorName(actor, x, bottom - lineHeight * 2 + 4, width * 0.5);
+        this.makeFontSmaller();
+        this.drawActorName(actor, x, bottom - lineHeight * 2, width * 0.5);
         this.drawActorHpMpSmall(actor, rect.x, bottom - lineHeight * 1, width, 8);
     };
 
@@ -139,5 +147,66 @@
         var gaugeY = y + this.lineHeight() - 8;
         this.contents.fillRect(x, gaugeY, width, height, this.gaugeBackColor());
         this.contents.gradientFillRect(x, gaugeY, fillW, height, color1, color2, null);
+    };
+
+    // 狀態場景內新增 help 視窗與技能視窗
+    Scene_Status.prototype.create = function() {
+        Scene_MenuBase.prototype.create.call(this);
+        this.addStatusWindow();
+        this.addHelpWindow();
+        this.addSkillWindow();
+        this.refreshActor();
+        this.commandSkill();
+    };
+
+    Scene_Status.prototype.refreshActor = function() {
+        var actor = this.actor();
+        this._statusWindow.setActor(actor);
+        this._itemWindow.setActor(actor);
+        var skills = this._actor.skills();
+        if (skills.length > 0) {
+            this._itemWindow.setStypeId(skills[0].stypeId);
+        }
+    };
+
+    Scene_Status.prototype.addStatusWindow = function () {
+        this.createStatusWindow();
+    };
+
+    Scene_Status.prototype.addHelpWindow = function () {
+        this.createHelpWindow();
+        this._helpWindow.y = Graphics.height - this._helpWindow.height;
+    };
+
+    Scene_Status.prototype.addSkillWindow = function () {
+        this.createItemWindow();
+    };
+
+    Scene_Status.prototype.createStatusWindow = function () {
+        this._statusWindow = new Window_Status();
+        this._statusWindow.setHandler('cancel',   this.popScene.bind(this));
+        this.addWindow(this._statusWindow);
+    };
+
+    Scene_Status.prototype.createItemWindow = function () {
+        var wx = 0;
+        var wy = this._statusWindow.height;
+        var ww = Graphics.boxWidth;
+        var wh = Graphics.boxHeight - this._statusWindow.height - this._helpWindow.height;
+        this._itemWindow = new Window_SkillList(wx, wy, ww, wh);
+        this._itemWindow.setHelpWindow(this._helpWindow);
+        this.addWindow(this._itemWindow);
+    };
+
+    Scene_Status.prototype.commandSkill = function() {
+        this._itemWindow.activate();
+        this._itemWindow.selectLast();
+    };
+
+    Window_Status.prototype.initialize = function() {
+        var width = Graphics.boxWidth;
+        var height = Graphics.boxHeight - 240;
+        Window_Selectable.prototype.initialize.call(this, 0, 0, width, height);
+        this.refresh();
     };
 })();

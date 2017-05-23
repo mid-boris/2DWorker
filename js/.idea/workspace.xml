@@ -12,28 +12,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="rpg_scenes.js" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="304">
+                    <caret line="1153" column="37" lean-forward="true" selection-start-line="1153" selection-start-column="37" selection-end-line="1153" selection-end-column="37" />
+                    <folding>
+                      <element signature="n#!!doc" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="rpg_windows.js" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/rpg_windows.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="494">
+                    <caret line="2180" column="41" lean-forward="false" selection-start-line="2180" selection-start-column="21" selection-end-line="2180" selection-end-column="41" />
+                    <folding>
+                      <element signature="n#!!doc" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5190597">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Kino_menu.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Kino_menu.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/plugins/Kino_menu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/plugins/test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="702">
-                  <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+                <state relative-caret-position="289">
+                  <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -42,12 +64,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="rpg_scenes.js" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="rpg_scenes.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="779" column="0" lean-forward="true" selection-start-line="779" selection-start-column="0" selection-end-line="779" selection-end-column="0" />
+                <state relative-caret-position="189">
+                  <caret line="1337" column="53" lean-forward="false" selection-start-line="1337" selection-start-column="39" selection-end-line="1337" selection-end-column="53" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -55,34 +77,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rpg_windows.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rpg_windows.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/rpg_windows.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+                <state relative-caret-position="329">
+                  <caret line="2516" column="46" lean-forward="false" selection-start-line="2516" selection-start-column="46" selection-end-line="2516" selection-end-column="46" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EnemyBook.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plugins/EnemyBook.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-669">
-                  <caret line="269" column="29" lean-forward="false" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AltMenuScreen.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plugins/AltMenuScreen.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-266">
-                  <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -100,36 +102,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>VK</find>
-      <find>V</find>
-      <find>shi</find>
-      <find>shif</find>
-      <find>shift</find>
-      <find>Input.isPressed('shift')</find>
-      <find>menu</find>
-      <find>Scene_Menu.prototype.onFormationCancel</find>
-      <find>SRD_AltMenuScreen_Icons</find>
-      <find>_Window</find>
-      <find>_Window`</find>
-      <find>createGold</find>
-      <find>Window_CommandLabel</find>
-      <find>_title</find>
-      <find>Scene_Boot</find>
-      <find>createCommandWindow</find>
-      <find>Window_MenuCommand</find>
-      <find>maxCols</find>
-      <find>Window_MenuCommand.prototype</find>
-      <find>Scene_Menu.prototype.createCommandWindow</find>
-      <find>Scale</find>
-      <find>_enemySprite.scale</find>
-      <find>Window_MenuStatus.</find>
-      <find>_enemySprite</find>
-      <find>Window_MenuStatus</find>
-      <find>drawActorFace</find>
-      <find>fo</find>
-      <find>font</find>
-      <find>windowHeight</find>
-      <find>Scene_Menu.prototype.create</find>
+      <find>currentData</find>
+      <find>currentData(</find>
+      <find>currentData()</find>
+      <find>currentData().</find>
+      <find>currentData().e</find>
+      <find>currentData().ex</find>
+      <find>currentExt</find>
+      <find>.</find>
+      <find>.u</find>
+      <find>.upda</find>
+      <find>.update</find>
+      <find>p</find>
+      <find>pro</find>
+      <find>prot</find>
+      <find>proto</find>
+      <find>protot</find>
+      <find>prototype</find>
+      <find>prototype.</find>
+      <find>prototype.u</find>
+      <find>prototype.up</find>
+      <find>prototype.upd</find>
+      <find>prototype.upda</find>
+      <find>prototype.update</find>
+      <find>prototype.update</find>
+      <find>prototype.update =</find>
+      <find>prototype.update = f</find>
+      <find>prototype.update = functio</find>
+      <find>prototype.update = function</find>
+      <find>.setStypeId</find>
+      <find>this._itemWindow.</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -142,10 +144,10 @@
         <option value="$PROJECT_DIR$/plugins/Kino_windows_option.js" />
         <option value="$PROJECT_DIR$/plugins/Kino_system_overwrite.js" />
         <option value="$PROJECT_DIR$/plugins/Kino_windows_menu.js" />
+        <option value="$PROJECT_DIR$/plugins/test.js" />
         <option value="$PROJECT_DIR$/rpg_scenes.js" />
         <option value="$PROJECT_DIR$/rpg_windows.js" />
         <option value="$PROJECT_DIR$/plugins/Kino_menu.js" />
-        <option value="$PROJECT_DIR$/plugins/test.js" />
       </list>
     </option>
   </component>
@@ -176,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,6 +207,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,41 +313,33 @@
       <updated>1495165604098</updated>
       <workItem from="1495165606368" duration="22992000" />
       <workItem from="1495468321287" duration="39000" />
+      <workItem from="1495518742513" duration="10107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35817000" />
+    <option name="totallyTimeSpent" value="45924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/Kino/window/window_options.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -372,7 +365,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8854">
           <caret line="466" column="0" lean-forward="false" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,7 +384,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -397,7 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,7 +401,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28747">
           <caret line="1513" column="11" lean-forward="false" selection-start-line="1513" selection-start-column="0" selection-end-line="1513" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +447,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="799" column="37" lean-forward="false" selection-start-line="799" selection-start-column="0" selection-end-line="799" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -465,7 +465,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8018">
           <caret line="422" column="57" lean-forward="false" selection-start-line="422" selection-start-column="57" selection-end-line="422" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -481,7 +483,7 @@
         <state relative-caret-position="8018">
           <caret line="422" column="57" lean-forward="true" selection-start-line="422" selection-start-column="57" selection-end-line="422" selection-end-column="57" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,9 +492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +509,7 @@
         <state relative-caret-position="8854">
           <caret line="466" column="0" lean-forward="false" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -518,9 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144476">
           <caret line="7604" column="2" lean-forward="true" selection-start-line="7604" selection-start-column="2" selection-end-line="7604" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +590,7 @@
         <state relative-caret-position="8854">
           <caret line="466" column="0" lean-forward="false" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,27 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/SRD_AltMenuScreen_Icons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8018">
-          <caret line="422" column="57" lean-forward="false" selection-start-line="422" selection-start-column="57" selection-end-line="422" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/TitleCommandPosition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -661,72 +642,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="779" column="0" lean-forward="true" selection-start-line="779" selection-start-column="0" selection-end-line="779" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="3770" column="0" lean-forward="false" selection-start-line="3770" selection-start-column="0" selection-end-line="3770" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/EnemyBook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
+        <state relative-caret-position="5073">
           <caret line="269" column="29" lean-forward="false" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_core.js">
+    <entry file="file://$PROJECT_DIR$/plugins/SRD_AltMenuScreen_Icons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="1017" column="32" lean-forward="true" selection-start-line="1017" selection-start-column="32" selection-end-line="1017" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Kino_menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="-1991">
+          <caret line="422" column="57" lean-forward="false" selection-start-line="422" selection-start-column="57" selection-end-line="422" selection-end-column="57" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/AltMenuScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
+        <state relative-caret-position="532">
           <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
+    <entry file="file://$PROJECT_DIR$/plugins/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="82" column="41" lean-forward="true" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/TitleCommandPosition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WeaponSkill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="5876" column="40" lean-forward="false" selection-start-line="5876" selection-start-column="40" selection-end-line="5876" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="4243" column="0" lean-forward="false" selection-start-line="4243" selection-start-column="0" selection-end-line="4243" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1337" column="53" lean-forward="false" selection-start-line="1337" selection-start-column="39" selection-end-line="1337" selection-end-column="53" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/test.js">
+    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="329">
+          <caret line="2516" column="46" lean-forward="false" selection-start-line="2516" selection-start-column="46" selection-end-line="2516" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Kino_menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
           <folding />
         </state>
       </provider>
